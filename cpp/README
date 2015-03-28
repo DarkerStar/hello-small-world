@@ -1,0 +1,8 @@
+For best results
+----------------
+
+For best results, I recommend you first set up some environment variables with
+the compiler/linker options that will compile smaller executables:
+
+    export CXXFLAGS='-std=c++14 -Os'
+    export LDFLAGS='-s'
